@@ -21,10 +21,15 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
             ),
             TextField(
               style: TextStyle(
-                color: Colors.red
+                color: Color.fromARGB(255, 241, 244, 54)
               ),
               decoration: InputDecoration(
-                labelText: 'Please Enter Your Name',
+                hintText: 'Please Enter Your Name',
+                hintStyle: TextStyle(
+                  color: Colors.white60
+                ),
+                prefixIcon: Icon(Icons.money),
+                prefixIconColor: Colors.white
               ),
             )
           ],
